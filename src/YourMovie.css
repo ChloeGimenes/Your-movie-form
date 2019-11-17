@@ -1,0 +1,27 @@
+.yourMovie {
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.yourMovie h1 {
+  text-align: center;
+  color: rgb(6, 184, 131);
+}
+
+.yourMovie .form-data {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.yourMovie .form-data label {
+  display: inline-block;
+  width: 75px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.yourMovie .form-data input:not([type="submit"]) {
+  flex-grow: 1;
+}
